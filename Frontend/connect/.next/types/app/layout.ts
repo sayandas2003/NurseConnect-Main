@@ -1,4 +1,4 @@
-// File: /Users/sayan/Desktop/Conecte4.0-main/Frontend/connect/app/layout.js
+// File: C:\Users\91600\OneDrive\Desktop\Main\NurseConnect-Main\Frontend\connect\app\layout.js
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
