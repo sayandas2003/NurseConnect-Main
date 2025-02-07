@@ -25,11 +25,15 @@ const RecruiterLogin = () => {
       });
 
       if (response.ok) {
-        // Redirect to the recruiter page on success
-        localStorage.setItem("isFormFilled",true);
-        router.push("/map");
+        const data = await response.json(); // Parse response data
+        localStorage.setItem("isFormFilled", data.isFormFilled);
+    
+        if (data.isFormFilled) {
+          router.push("/map");
+        } else {
+          router.push("/recruiter");
+        }
       } else {
-        // Capture and show error message
         const data = await response.json();
         alert(data.message || "Login failed. Please try again.");
       }

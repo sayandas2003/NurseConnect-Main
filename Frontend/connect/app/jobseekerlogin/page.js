@@ -22,16 +22,17 @@ const JobSeekerLogin = () => {
       body: JSON.stringify({ email, password }),
     });
 
+    
     if (response.ok) {
-      // Redirect to the jobseeker page on success
-      localStorage.setItem("isFormFilled", true);
-      router.push("/map");
-    } else if(response.ok){
-      localStorage.setItem("isFormFilled", false);
-      router.push("/jobseeker");
-    }
-     else {
-      // Handle errors
+      const data = await response.json(); // Parse response data
+      localStorage.setItem("isFormFilled", data.isFormFilled);
+  
+      if (data.isFormFilled) {
+        router.push("/map");
+      } else {
+        router.push("/jobseeker");
+      }
+    } else {
       const data = await response.json();
       alert(data.message || "Login failed. Please try again.");
     }

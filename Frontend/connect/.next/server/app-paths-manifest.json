@@ -1,11 +1,6 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/jobseeker/page": "app/jobseeker/page.js",
-  "/RecruiterSignUp/page": "app/RecruiterSignUp/page.js",
-  "/map/page": "app/map/page.js",
-  "/recruiterlogin/page": "app/recruiterlogin/page.js",
-  "/jobseekerlogin/page": "app/jobseekerlogin/page.js",
   "/page": "app/page.js",
-  "/JobSeekerSignUp/page": "app/JobSeekerSignUp/page.js",
-  "/recruiter/page": "app/recruiter/page.js"
+  "/RecruiterSignUp/page": "app/RecruiterSignUp/page.js",
+  "/recruiter/page": "app/recruiter/page.js",
+  "/recruiterlogin/page": "app/recruiterlogin/page.js"
 }
