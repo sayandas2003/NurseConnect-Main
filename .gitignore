@@ -1,0 +1,10 @@
+# Ignore all node_modules directories recursively
+node_modules/
+
+# Ignore package-lock.json (optional but recommended)
+package-lock.json
+
+# Ignore .next and .DS_Store (MacOS system files)
+.next/
+.DS_Store
+
