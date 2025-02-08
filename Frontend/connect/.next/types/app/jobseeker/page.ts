@@ -1,4 +1,4 @@
-// File: /Users/sayan/Desktop/NurseConnect/Frontend/connect/app/jobseeker/page.js
+// File: /Users/sayan/Desktop/WORK/WEB_DEVELOPMENT/PROJECTS/MY/NurseConnect-Main/Frontend/connect/app/jobseeker/page.js
 import * as entry from '../../../../app/jobseeker/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
