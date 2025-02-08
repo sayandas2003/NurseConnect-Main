@@ -1,6 +1,0 @@
-{
-  "/page": "app/page.js",
-  "/RecruiterSignUp/page": "app/RecruiterSignUp/page.js",
-  "/recruiter/page": "app/recruiter/page.js",
-  "/recruiterlogin/page": "app/recruiterlogin/page.js"
-}
