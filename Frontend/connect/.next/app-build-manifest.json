@@ -11,20 +11,30 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/JobSeekerSignUp/page": [
+    "/map/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/JobSeekerSignUp/page.js"
+      "static/chunks/app/map/page.js"
     ],
-    "/jobseeker/page": [
+    "/RecruiterSignUp/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/jobseeker/page.js"
+      "static/chunks/app/RecruiterSignUp/page.js"
     ],
-    "/jobseekerlogin/page": [
+    "/recruiter/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/jobseekerlogin/page.js"
+      "static/chunks/app/recruiter/page.js"
+    ],
+    "/recruiterlogin/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/recruiterlogin/page.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }
